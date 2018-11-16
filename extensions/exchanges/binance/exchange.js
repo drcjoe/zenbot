@@ -4,7 +4,7 @@ const ccxt = require('ccxt')
 , colors = require('colors')
 , _ = require('lodash')
 
-module.exports = function bittrex (conf) {
+module.exports = function binance (conf) {
   var public_client, authed_client
   let firstRun = true
   let allowGetMarketCall = true
